@@ -1,4 +1,4 @@
-# Asteroids
+# Pysteroids
 A clone of the classic arcade game built in Python, following the boot.dev backend learning path.
 
 # Demo
@@ -16,7 +16,7 @@ Built as part of the Boot.dev curriculum to practice object-oriented programming
 ```
 #Clone the repo
 git clone https://github.com/AppleFritterz/pysteroids.git
-cd asteroids
+cd pysteroids
 
 #run the game
 uv run main.py
