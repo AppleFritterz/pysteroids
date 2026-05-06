@@ -1,14 +1,14 @@
-#Asteroids
+# Asteroids
 A clone of the classic arcade game built in Python, following the boot.dev backend learning path.
 
-#Demo
+# Demo
 [Insert .gif here]
 
-#About
+# About
 This project is a recreation of the 1979 arcade classic. The player pilots a spaceship through an asteroid field, avoiding collisions and shooting asteroids to clear the screen. The asteroids break up into 2 smaller arseroids and move faster when hit, increasing the challenge.
 Built as part of the Boot.dev curriculum to practice object-oriented programming.
 
-#Controls
+# Controls
 | Key | Action |
 |---| --- |
 | W | Forward |
@@ -17,5 +17,5 @@ Built as part of the Boot.dev curriculum to practice object-oriented programming
 | D | Rotate right |
 | space | Shoot |
 
-#Acknowledgements
+# Acknowledgements
 Project structure and requirements from the boot.dev curriculum. Asteroids is originally a trademark of Atari.
