@@ -8,6 +8,20 @@ A clone of the classic arcade game built in Python, following the boot.dev backe
 This project is a recreation of the 1979 arcade classic. The player pilots a spaceship through an asteroid field, avoiding collisions and shooting asteroids to clear the screen. The asteroids break up into 2 smaller asteroids and move faster when hit, increasing the challenge.
 Built as part of the Boot.dev curriculum to practice object-oriented programming.
 
+# Requirements
+- Python 3.11+
+- uv
+
+# Installation
+```
+#Clone the repo
+git clone https://github.com/AppleFritterz/pysteroids.git
+cd asteroids
+
+#run the game
+uv run main.py
+```
+
 # Controls
 | Key | Action |
 |---| --- |
