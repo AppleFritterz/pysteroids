@@ -5,6 +5,7 @@ from player import Player
 from asteroid import Asteroid
 from asteroidfield import AsteroidField
 from shot import Shot
+from scoreboard import Scoreboard
 import sys
 
 def main():
@@ -23,6 +24,8 @@ def main():
     #Initialize containers with groups
     Player.containers = (updatable, drawable)
     player = Player(x = SCREEN_WIDTH / 2, y = SCREEN_HEIGHT / 2)
+    Scoreboard.containers = (drawable)
+    scoreboard = Scoreboard()
     Asteroid.containers = (asteroids, updatable, drawable)    
     AsteroidField.containers = (updatable)
     Shot.containers = (shots, drawable, updatable)
@@ -44,6 +47,7 @@ def main():
             for shot in shots:
                 if asteroid.collides_with(shot):
                     log_event("asteroid_shot")
+                    scoreboard.increment_score(1)
                     asteroid.split()
                     shot.kill()
         screen.fill("black")
